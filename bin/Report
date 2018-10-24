@@ -1,0 +1,13 @@
+problems:
+when refactoring client into a class socket.send got jumbled up.
+
+protocol:
+length 5 byte
+data 4091 byte
+length + data
+
+a = 4091
+'0x{0:03x}'.format(a)
+0xffb
+
+swapped to structs
