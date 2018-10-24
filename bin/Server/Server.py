@@ -5,7 +5,6 @@ from transfer.SocketMessages import *
 import socket
 import sys
 import os
-import ssl
 
 
 class ListenToClient(Thread):
